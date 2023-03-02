@@ -1,0 +1,66 @@
+@font-face{
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face{
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face{
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face{
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face{
+  font-family: 'DM Sans';
+  src: url('../fonts/DM_Sans/DMSans-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  /* box-sizing: border-box; */
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+  font-size: 12px 'Poppins', Arial, sans-serif;
+  font-weight: normal;
+}
+
+.container{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.btn{
+  display: inline-block;
+  width: 182px;
+  height: 48px;
+  min-width: 182;
+  background: white;
+  box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+  box-sizing: border-box;
+  border: 2px solid #E6E8EC;
+  border-radius: 90px;
+  color: #23262F;
+  font-size: 16px;
+  line-height: 45px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 24px;
+}
