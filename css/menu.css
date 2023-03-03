@@ -12,7 +12,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .link{
   display: flex;
   justify-content: space-between;
@@ -23,12 +22,12 @@
 .links_logo {
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 .links_logo li{
   display: flex;
   justify-content: flex-end;
-  text-decoration: none ;
-  margin-right: 20px;
+  text-decoration: none ; 
 }
 
 .links_logo img {
@@ -36,21 +35,42 @@
   display: block;
   width: 200px;
   height: 80px;
+  margin-bottom: 20px;
 }
 .links_logo p{
   position: absolute;
   display: flex;
-  justify-content: space-between;
   width: 86px;
   height: 32px;
-  font-family: 'Poppins';
+  font: 24px 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.02em;
   margin-top: 20px;
   }
+.links_logo a{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  font: 14px 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-top: 30px;
+  }
+.text-a a{
+  width: 59px;
+  height: 16px;
+  color: #23262F;
+  margin-left: 32px;
+}  
+.text-b a{
+  width: 79px;
+  height: 16px;
+  color: #777E91;
+  margin-left: 32px;
+}  
 
 .link-2{
   display: flex;
