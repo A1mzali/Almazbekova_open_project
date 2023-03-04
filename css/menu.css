@@ -131,3 +131,12 @@
   margin-right: 12px;
   
 }
+
+
+.vl-01{
+  width: 2px;
+  height: 40px;
+  background-color: red;
+  margin-left: 32px;
+  margin-top: 20px;
+}
