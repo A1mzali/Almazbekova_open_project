@@ -64,3 +64,12 @@ body{
   text-align: center;
   margin-top: 24px;
 }
+
+i:link {
+  color: #0000d0; /* Цвет ссылок */
+  padding: 2px; /* Поля вокруг текста */
+}
+i:hover {
+  background: #9c9a96; /* Цвет фона под ссылкой */
+  color: #ffe; /* Цвет ссылки */
+}

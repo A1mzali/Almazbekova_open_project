@@ -7,3 +7,11 @@ git checkout -b  "_____" -новая ветка
 git commit -m "_________нужную ветку"
 git branch -M _____ нужную ветку
 git remote add origin https://github.com/A1mzali/222_d.git
+
+git push origin "___" отправка реп
+
+
+
+
+
+plas square с квадратом
