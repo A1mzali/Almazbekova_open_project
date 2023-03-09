@@ -182,12 +182,10 @@
 }
 
 .update_hd{
-  width: 64px;
   height: 20px;
   font: 12px "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
   color: #777E91;
-  margin-left: 40px;
 }
