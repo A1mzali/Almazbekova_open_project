@@ -38,8 +38,9 @@
  height: 184px;
  margin-bottom: 48px;
 }
-
-.footer_list_fr{
+/* 1.1 */
+.footer_lists{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -47,10 +48,54 @@
   width: 352px;
   height: 128px;
 }
+
 .link_ft{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 362px;
+  height: 40px;
+  /* margin-bottom: 32px; */
 }
+.links_logo_ft{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.text-logo_ft{
+  position: relative;
+  left: 40px;
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+}
+.links_logo_ft li{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none ; 
+  margin-bottom: 32px;
+}
+
+.links_logo_ft img {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 80px;
+}  
+.links_logo_ft p{
+  display: flex;
+  width: 86px;
+  height: 32px;
+  font: 24px 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  margin-top: 20px;
+  }
+
+/* 1.1.2 */
 .footer_tx{
   width: 256px;
   height: 64px;
@@ -62,7 +107,7 @@
   color: #23262F; 
 }
 
-
+/* 2/3 */
 .footer_list{
   display: flex;
   flex-direction: column;
@@ -71,10 +116,6 @@
   height: 128px;
 }
 .text_main_ft{
-  
-}
-
-.ft_main_p{
   width: 260px;
   height: 24px;
   font: 16px "Poppins", sans-serif ;
@@ -83,7 +124,41 @@
   line-height: 24px;
   color: #23262F; 
 }
-.ft_main_p_1{
+
+.text_ft{
+display: flex;
+flex-direction: column;
+
+}
+.text_ft li{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-decoration: none ; 
+  
+}
+.text_ft a{
+  height: 16px;
+  font: 14px "DM Sans", sans-serif ;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  color: #777E91; 
+  text-decoration: none;
+  padding: 12px 0;
+}
+
+/* 4 */
+.footer_bt_text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  width: 352px;
+  height: 184px;
+}
+
+.text_bt_ft{
   width: 352px;
   height: 24px;
   font: 16px "Poppins", sans-serif ;
@@ -100,7 +175,6 @@
   gap: 24px;
   width: 352px;
   height: 120px;
-  margin-top: 40px;
 }
 .ft_text{
   width: 352px;

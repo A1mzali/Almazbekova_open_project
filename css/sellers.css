@@ -126,6 +126,8 @@
 
 /* 1.2 */
 .sellers_avatar_pages{
+  position: relative;
+  left: -6%;
    display: flex;
   flex-direction: row;
   justify-content: space-between;
