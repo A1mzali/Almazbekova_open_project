@@ -8,6 +8,7 @@
   margin: 0;
   width: 100%;
 }
+
 .nav_link{
   display: flex;
   justify-content: space-between;
@@ -124,8 +125,8 @@
 .link-2 a {
   justify-content: space-between;
   box-sizing: border-box;
-  border: 2px solid #E6E8EC;
-  color: #23262F;
+  /* border: 2px solid #E6E8EC; */
+  /* color: #23262F; */
   text-decoration: none;
 }
 .buttons{
@@ -186,4 +187,11 @@
   background-color: red;
   margin-left: 32px;
   margin-top: 20px;
+}
+
+.divider_1{
+  width: 1440px;
+  gap: 10px;
+  height: 1px;
+  background-color: #3772FF;
 }
