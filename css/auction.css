@@ -4,7 +4,6 @@
 .auction{
   display: flex;
   align-items: center;
-  background:burlywood;
 }
 
 .auction_inner{
