@@ -5,8 +5,10 @@
 }
 .nav_inner{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 80px;
+  align-items: center;
   width: 100%;
 }
 
@@ -208,9 +210,3 @@
   margin-top: 20px;
 }
 
-.divider_1{
-  width: 1440px;
-  gap: 10px;
-  height: 1px;
-  background-color: #3772FF;
-}
