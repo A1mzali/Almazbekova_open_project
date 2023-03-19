@@ -97,50 +97,56 @@
   border:2px solid #E6E8EC;
   margin-bottom: 21px;
 }
-.links_searh label{
+.links_searh input{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+.link_input input{
   display: flex;
   align-items: center;
   width: 43px;
-  /* height: 20px; */
   font: 12px "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
   color: #777E91;
   margin-left: 16px;
+}
 
-}
-.icons{
-  position: relative;
-  width: 40px;
-  height: 40px;
-}
-.icons_search{
-  position: absolute;
+.icons_search i{
   width:24px;
   height: 24px;
   color: #777E90;
   margin-right: 16px;
 }
 
-.status{
+.links_icons{
   position: relative;
-  left: 80px;
-  width: 12px;
-  height: 12px;
-  gap: 10px;
-  background: #45B36B;
-  border-radius: 8px;
-  
-}
+  width: 40px;
+  height: 40px;
 
+}
 .links_icons i{
-  width: 24px;
-  height: 24px;
+  position: relative;
+  width: 30px;
+  height: 30px;
   color: #777E90;
   align-items: center;
   margin-bottom: 21px;
 }
+.status{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 18px;
+   top: 0px;
+  background: #45B36B;
+  border-radius: 8px;
+}
+
 .link-2 a {
   justify-content: space-between;
   box-sizing: border-box;
@@ -157,7 +163,7 @@
   height: 40px;
   margin-bottom: 21px;
 }
-.btn-1{
+.buttons button{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -167,8 +173,9 @@
   height: 40px;
   border-radius: 90px;
   background-color: #3772FF;
+  border-color: #3772FF;
 }
-.btn-1 a{
+.buttons a{
   font: 14px "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -176,7 +183,8 @@
   color: white;
   border-color: #3772FF;
 }
-.btn-2{
+
+.btn-menu button{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -186,8 +194,9 @@
   height: 40px;
   border-radius: 90px;
   background-color: #E6E8EC;
+  border-color: #E6E8EC;
 }
-.btn-2 a{
+.btn-menu a{
   display: flex;
   justify-content: space-between;
   font: 14px "DM Sans", sans-serif;

@@ -1,5 +1,50 @@
 /* ITEM */
 
+/* 0 */
+
+.img_ava{
+  width: 32px;
+  height: 32px;
+  color: #45B26B;
+  background-color: #45B26B;
+  border-radius: 48px;
+}
+
+.img_ava img{
+  width: 32px;
+  height: 32px;
+  border-radius: 48px;
+}
+.texts_av{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4px;
+  width: 87px;
+  height: 16px;
+}
+
+.price_frs{
+  width: 56px;
+  height: 16px;
+  font: 14px "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #23262F;
+ }
+.price_vals{
+  width: 27px;
+  height: 16px;
+  font: 14px "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #45B26B;
+}
+
 .item{
   display: flex;
   align-items: center;
