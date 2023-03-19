@@ -3,7 +3,7 @@
 .cta{
   display: flex;
   justify-content: center;
-  background: rgb(120, 176, 205);
+  /* background: rgb(120, 176, 205); */
   border-bottom: 1px solid #E6E6EC;;
 }
 

@@ -3,7 +3,7 @@
 .sellers{
   display: flex;
   align-items: center;
-  background-color: #43a95f;
+  background-color: #F4F5F6;
 }
 
 .sellers_inner{
@@ -14,7 +14,7 @@
   display: flex;
   width: 1264px;
   height: 407px;
-  margin-top: 128px;
+
 }
 
 .sellers_item_text{
@@ -122,8 +122,6 @@
   margin-right: 8px;
 }
 
-
-
 /* 1.2 */
 .sellers_avatar_pages{
   position: relative;
@@ -135,6 +133,7 @@
   gap: 32px;
   width: 1264px;
   height: 263px;  
+  margin-bottom: 128px;
   
 }
 

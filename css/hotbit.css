@@ -4,7 +4,6 @@
 .hotbid{
   display: flex;
   align-items: center;
-  background-color: #66a4da;
 }
 .hotbid_inner{
   width: 100%;
@@ -43,6 +42,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 128px;
  
 }
 .row_main_hd{
