@@ -1,0 +1,244 @@
+/* FAQ */
+.faq{
+  display: flex;
+  align-items: center;
+}
+
+.fag_inner{
+ width: 100%;
+ align-items: center;
+ justify-content: center;
+}
+
+.fag_main{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 80px;
+   width: 1120px;
+   /* height: 925px; */
+}
+
+/* 1 */
+.main_text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 20px;
+  width: 736px;
+  height: 148px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 80px;
+}
+
+.text_title_fq{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 736px;
+  height: 80px;
+
+}
+.text_fq{
+  width: 172px;
+  height: 12px;
+  font: 12px 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  color: #777E91;
+}
+
+.text_main_fq{
+  width: 736px;
+  height: 56px;
+  font: 48px 'DM Dans',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  color: #23262F;
+}
+
+.text_p{
+  flex-direction: row;
+  width: 580px;
+  height: 48px;
+  font: 16px 'DM Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #353945;
+}
+.span_color{
+  color: #687dbd;
+}
+
+/* 2 */
+.faq_item{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 1120px;
+  height: 697px;
+}
+
+.categories{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 40px;
+  width: 160px;
+  height: 184px;
+}
+
+.faq_list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 16px;
+  height: 16px;
+}
+
+.icon_gl{
+  width: 16px;
+  height: 16px;
+  color: #777E91;
+}
+
+.categories_title{
+  font: 14px 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #777E91;
+}
+
+/* 3 */
+
+.faq_lists{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 32px;
+  width: 735px;
+  height: 669px;
+  margin-left: 225px;
+}
+
+.faq_item_1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 32px;
+  width: 735px;
+  height: 65px;
+  border-top: 1px solid #E6E8EC;
+}
+.toggle_faq{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  gap: 16px;
+  width: 735px;
+  height: 24px;
+ align-self: stretch;
+  margin-top: 32px;
+}
+.toogle_tx{
+  height: 24px;
+  font: 16px 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #23262F;
+}
+.toogle-icon{
+  width: 24px;
+  height: 24px;
+}
+
+/* 3.1 */
+
+.faq_item_2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 24px;
+  width: 735px;
+  height: 184px;
+}
+.toogle_tx_2{
+  width: 735px;
+  height: 120px;
+  font: 16px 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #777E91;
+}
+
+.btn-gaq{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 2px solid #E6E8EC;
+  border-radius: 100px;
+}
+.btn label{
+  height: 16px;
+  font: 14px 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #23262F;
+ 
+}
+
+/* 3.2 */
+
+.faq_item_3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 32px;
+  /* width: 735px; */
+  height: 356px;
+}
+
+.toggle{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 735px;
+  height: 65px;
+  align-items: flex-start;
+  gap: 32px;
+  border-top: 1px solid #E6E8EC;
+}
+.toogle_tx{
+  margin-top: 32px;
+}
+.toogle-icon{
+  margin-top: 32px;
+}
