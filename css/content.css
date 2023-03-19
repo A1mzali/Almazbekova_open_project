@@ -12,11 +12,23 @@
   margin-top: 80px;
 }
 
+
 .content_item{
   width: 736px;
   margin: 0 auto;
   text-align: center;
   color: black;
+}
+
+@media (max-width: 992px){
+  .content_item {
+      max-width: 750px;
+  }
+}
+@media (max-width: 750px){
+  .content_item {
+      max-width: none;
+  }
 }
 
 .caption{

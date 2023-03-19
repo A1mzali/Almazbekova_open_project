@@ -38,6 +38,7 @@
 /* 1.2 */
 
 .row_main{
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -46,6 +47,7 @@
  
 }
 .row_main_hd{
+  position: relative;
   display: flex;
   gap: 32px; 
   width: 1120px;
@@ -57,6 +59,95 @@
   height: 303px;
   border-radius: 16px;
   background: #CDB4DB;
+}
+
+.label_hb{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-radius: 16px 16px 0 0;
+}
+
+.btn-lbl button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 103px;
+  height: 26px;
+  gap: 10px;
+  background: #45B36B;
+  border-radius: 4px;
+  border: none;
+}
+.btn-lbl a{
+  width: 87px;
+  height: 12px;
+  font: 12px 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #FCFCFD;
+  text-decoration: none;
+}
+
+
+.label_hb label{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-radius: 16px 16px 0 0;
+}
+
+.icon_heart{
+  display: flex;
+  width: 16px;
+ height: 16px;
+ color: red; 
+ margin-left: 110px;
+}
+
+
+.btn_hb{
+ position: absolute;
+ top: 247px;
+ left: 61px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ width: 134px;
+ height: 40px;
+ gap: 12px;
+ background: #3772FF;
+ border-radius: 90px;
+ border: none;
+}
+.btn_hb a {
+ width: 74px;
+ height: 16px;
+ font: 14px 'DM Sans', sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 16px;
+ color: #FCFCFD;
+ background: #3772FF;
+ text-decoration: none;
+
+}
+.icon_bn_hd i{
+ width: 16px;
+ height: 16px;
+ color: #FCFCFD;
+ 
+
 }
 
 .info_hb{
